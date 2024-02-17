@@ -46,15 +46,25 @@ def replace_image_in_psd(psd_path, replacement_image_path, output_path):
         raise Exception("Cloth smart object not found")
 
     # Replace 'Weixin Image_20240116205550' within 'Cloth' layer
-    for layer in cloth_layer:
-        if layer.name == '图层 1':
-            # Open the replacement image
-            replacement_image = Image.open(replacement_image_path)
-            # Replace the layer with the new image
-            layer.topil().paste(replacement_image)
-            break
+    # for layer in cloth_layer:
+    #     if layer.name == '图层 1':
+    #         # Open the replacement image
+    #         replacement_image = Image.open(replacement_image_path)
+    #         # Replace the layer with the new image
+    #         layer.topil().paste(replacement_image)
+    #         break
     # replacement_image = Image.open(replacement_image_path)
     # cloth_layer.mask.topil().paste(replacement_image)
+
+    # cloth_layer.smart_object.data = open(replacement_image_path, 'rb').read()
+
+    # 外部的资源地址
+    if cloth_layer.smart_object.kind == 'external':
+        # 读取replacement_image_path图片文件写入 cloth_layer.smart_object.filename指向的文件
+        with open(cloth_layer.smart_object.filename, 'wb') as f:
+            f.write(open(replacement_image_path, 'rb').read())
+            f.close()
+   
 
     # Save the modified PSD as a PNG file
     psd.composite().save(output_path)

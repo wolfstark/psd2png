@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "ag-psd": "^19.0.1",
+    "canvas": "^2.11.2",
+    "fabric": "^5.3.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "psd2png",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

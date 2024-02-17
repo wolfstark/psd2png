@@ -1,0 +1,133 @@
+{
+  "mockupSize": 800,
+  "mockupData": {
+    "scale": 1,
+    "maxWidth": null,
+    "maxHeight": null,
+    "thumbWidth": 200,
+    "thumbHeight": 200,
+    "dpi": 0,
+    "format": "png",
+    "width": 3000,
+    "height": 3000,
+    "backgroundColor": "transparent",
+    "layerBaseColor": "#ffffff",
+    "layers": [
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "back",
+        "left": 1019,
+        "top": 385,
+        "width": 961,
+        "height": 1153
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "sleeve_left",
+        "left": 207,
+        "top": 408,
+        "width": 385,
+        "height": 337,
+        "rotate": 55
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "sleeve_right",
+        "left": 2271,
+        "top": 408,
+        "width": 385,
+        "height": 337,
+        "rotate": -55
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "label_outside",
+        "left": 1361,
+        "top": 385,
+        "width": 288,
+        "height": 288
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "embroidery_chest_center",
+        "left": -10,
+        "top": -10,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "embroidery_chest_left",
+        "left": -10,
+        "top": -10,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "embroidery_large_center",
+        "left": -10,
+        "top": -11,
+        "width": 1,
+        "height": 1
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "embroidery_sleeve_left_top",
+        "left": 234,
+        "top": 515,
+        "width": 192,
+        "height": 287,
+        "rotate": 52.52
+      },
+      {
+        "_type": "PrintfileLayer",
+        "fileType": "embroidery_sleeve_right_top",
+        "left": 2415,
+        "top": 510,
+        "width": 192,
+        "height": 287,
+        "rotate": -49.88
+      },
+      {
+        "_type": "FileLayer",
+        "filePath": "https://files.cdn.printful.com/p/bc6400/flat/back/02_bc6400_flat_back_mask.png?size=[size]&v=1707378764",
+        "cacheKeyVersion": 1707378764,
+        "blending": "dstin"
+      },
+      {
+        "_type": "FileLayer",
+        "filePath": "https://files.cdn.printful.com/p/bc6400/flat/back/05_bc6400_flat_back_base.png?size=[size]&v=1707378764",
+        "cacheKeyVersion": 1707378764
+      }
+    ],
+    "layerParams": [],
+    "targetPath": null,
+    "thumbPath": null,
+    "printFiles": [],
+    "printFilePositions": []
+  },
+  "printfileData": {
+    "front": {
+      "printfilePreview": "blob:https://www.printful.com/9d9f8eea-a449-4589-aba6-da558dcdcda7",
+      "position": null,
+      "width": 10,
+      "height": 12,
+      "options": {}
+    },
+    "back": {
+      "printfilePreview": "blob:https://www.printful.com/bfc6ce36-6c82-4c33-8359-e4fbbe588098",
+      "position": null,
+      "width": 10,
+      "height": 12,
+      "options": {}
+    }
+  },
+  "generatorVariantId": null,
+  "consoleVisualDebug": false,
+  "useInterpolation": false,
+  "layerParams": {},
+  "mockupBackgroundColor": null,
+  "debugMode": false,
+  "useWorker": true
+}
